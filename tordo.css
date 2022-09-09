@@ -1,0 +1,180 @@
+body{
+font-family:'Times New Roman', Times, serif;
+}
+
+#divTitulo{
+	background:rgb(21, 3, 44);
+	font-size:40px;
+	color:rgb(255, 255, 255);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+	height: 190px;
+}
+
+#divTitulo img{
+	height: 190px;;
+	width: 190px;
+	float: left;
+}
+#divTitulo h1{
+	position: absolute;
+	left: 40%;
+}
+
+#divMenu{
+	background:rgb(33, 4, 71);
+	float:left;
+	width:10%;
+    height:693px;
+	padding: 7px;
+}
+
+#divMenu ul ul{
+	display:none;
+}
+
+#divMenu li{
+	list-style:none;
+}
+
+#divConteudo{
+	background:rgb(46, 9, 94);
+	color:rgb(241, 241, 241);	
+	padding:10px;
+}
+
+#divConteudo div div{
+	display:none;
+}
+#divConteudo div div div{
+	display: block;
+    float: left;
+    height: 250px;
+    width: 250px;
+}
+
+#divConteudo #produtos h1{
+	background:rgb(255, 255, 255);
+	color:rgb(27, 16, 77);
+}
+
+#divConteudo #prod{
+	background: rgba(38, 3, 66, 0.171);
+	display: block;
+	float: left;
+	height: 100;
+	width: 200;
+	margin-left: 30px;
+	margin-top: auto;
+	margin-bottom: 100px;
+	border: solid, 10px rgb(218, 28, 28);
+	border-radius: 20 px 40 px;
+	text-decoration: double;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+#divRodape{
+	background:rgb(42, 94, 107);
+	color:rgb(2, 3, 49);
+	float:left;
+	width:100%;
+}
+
+#divRodape #email{
+	float:right;
+}
+
+#divSubMenuProdutos {
+    height: 250px;
+}
+
+
+.color {
+	color: rgb(6, 1, 48);
+	animation-name: color;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+@keyframes color {
+  0% {
+	color: #222;
+
+  }
+  50% {
+	color: rgb(4, 0, 250);
+  }
+  100% {
+	color: #222;
+  }
+}
+
+ a {
+   color: white;
+   text-decoration: none;
+   transition: 0.3s;
+}
+
+#divTitulo #divAdmin{
+    height:80px;
+    width:100px;
+    float: right;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 900px) {
+
+		#divMenu{
+			position: absolute;
+			top: 0vh;
+			right: 85;
+			width: 8vw;
+			height: 5vh;
+			background-color: transparent;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}	
+
+		#divTitulo h1{
+			font-size: 10px;
+			left: 70;
+		}
+		
+
+		#divConteudo{
+			background:rgb(97, 72, 129);
+			color:rgb(18, 1, 41);	
+			padding:10px;
+			top: 16vh;
+			left: 0;
+			width: auto;
+			height: auto;
+			background-color:rgba(30, 80, 240, 0.212);
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
+
+		#divConteudo #prod{
+			padding:10px;
+			top: 16vh;
+			float: left;
+			width: auto;
+			height: auto;
+			background-color:rgba(30, 80, 240, 0.212);
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-around;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			margin-left: 5px;
+		}
+		#divTitulo #divAdmin{
+			height:80px;
+			width:100px;
+			float: left;
+			font-size: 0.9rem;
+		}
+}		

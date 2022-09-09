@@ -1,0 +1,21 @@
+body{
+	font-family:arial;
+}
+
+#divTitulo{
+	background:lightyellow;
+	font-size:40px;
+	color:brown;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+#divMenu{	
+	background:brown;
+	color:lightyellow;
+}
+
+#divMenu a{	
+		color:lightyellow;
+		text-decoration:none;
+}
